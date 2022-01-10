@@ -93,8 +93,8 @@ form button:hover {
 }
 .fall {
   transform: translateY(30px) rotateZ(20deg);
-  transition: 1.5s;
-  opacity: 0;
+  transition: 0.4s;
+  opacity: 0.2;
 }
 
 select {

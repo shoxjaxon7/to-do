@@ -60,7 +60,7 @@ function deleteCkeck(e) {
   }
 }
 function filterTodo(e) {
-  const todos = todoList.childNodes;
+  const todos = todoList.childNodes();
   todos.forEach(function (todos) {
     switch (e.target.value) {
       case "all":
